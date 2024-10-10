@@ -644,10 +644,14 @@ function validateForm() {
     
    
   }
+  if(isValid == true)
+  {
+    alert("Your tour has been successfully booked.")
+  document.getElementById("TourReg").reset(); 
+  }
 
   
-  alert("Your tour has been successfully booked.")
-  document.getElementById("TourReg").reset(); 
+  
   return isValid;
 }
 
